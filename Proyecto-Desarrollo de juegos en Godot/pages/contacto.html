@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto | Godot Engine</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><button id="theme-toggle">Luz/Oscuro</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto</h2>
+        
+        <section class="contacto-intro">
+            <p>¿Tienes dudas sobre los proyectos en desarrollo o quieres formar parte de la comunidad de Godot Engine? Utiliza este formulario para ponerte en contacto con nosotros. Puedes escribirnos para:</p>
+            <ul class="contacto-lista">
+                <li><strong>Reportar Bugs:</strong> Si encontraste algún fallo o comportamiento extraño en las mecánicas de los juegos.</li>
+                <li><strong>Sugerencias:</strong> Ideas para nuevos niveles, comportamientos de IA o mecánicas de juego en 2D.</li>
+                <li><strong>Colaboraciones:</strong> Si eres desarrollador (GDScript), diseñador de niveles o artista técnico y quieres sumarte a un proyecto.</li>
+            </ul>
+        </section>
+
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="formFeedback"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Proyecto Desarrollo Web - Andy Miranda</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+  
